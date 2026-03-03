@@ -205,8 +205,7 @@ ul {
 .container {
   width: 100%;
   max-width: 680px;
-  grid-column-gap: 68px;
-  grid-row-gap: 24px;
+  grid-row-gap: 16px;
   flex-direction: column;
   display: flex;
 }
@@ -481,8 +480,19 @@ ul {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .w-nav-brand {
+    flex-shrink: 0;
+  }
+
+  .label-white,
+  .label-gray {
+    white-space: nowrap;
   }
 
   .fold-content {
@@ -514,8 +524,7 @@ ul {
   }
 
   .container {
-    grid-column-gap: 68px;
-    grid-row-gap: 68px;
+    grid-row-gap: 16px;
   }
 
   .fold-content {
