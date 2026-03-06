@@ -148,7 +148,7 @@ ul {
   height: 100%;
   max-width: 280px;
   background-color: #1c1c1c;
-  border-right: 1px solid #353535;
+  border-right: 1px solid #cccccc;
   padding: 32px;
 }
 
@@ -182,7 +182,7 @@ ul {
 .niv-image {
   width: 48px;
   height: 48px;
-  border: 1px solid #353535;
+  border: 1px solid #cccccc;
   border-radius: 100px;
   margin-right: 12px;
 }
@@ -219,8 +219,8 @@ ul {
 .button {
   color: #fff;
   background-color: #1c1c1c;
-  border: 1px solid #363636;
-  border-right-color: #353535;
+  border: 1px solid #cccccc;
+  border-right-color: #cccccc;
   border-radius: 8px;
   padding: 12px 20px;
   font-size: 14px;
@@ -271,7 +271,7 @@ ul {
   color: #a8a8a8;
   font-size: 15px;
   text-decoration: none;
-  border: 1px solid #353535;
+  border: 1px solid #cccccc;
   border-radius: 8px;
   padding: 8px 14px;
   transition: color 0.15s, border-color 0.15s;
@@ -279,7 +279,7 @@ ul {
 
 .email-link:hover {
   color: #fff;
-  border-color: #666;
+  border-color: #cccccc;
 }
 
 .subtitle {
@@ -336,7 +336,7 @@ ul {
   font-size: 16px;
   color: #fff;
   background-color: #2b2b2b;
-  border-color: #353535;
+  border-color: #cccccc;
 }
 
 .resource-items {
@@ -374,7 +374,7 @@ ul {
 .nav-link-container.w--current {
   color: #fff;
   background-color: #2b2b2b;
-  border-color: #353535;
+  border-color: #cccccc;
 }
 
 .projects-container {
@@ -395,7 +395,7 @@ ul {
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
   background-color: rgba(53, 53, 53, 0.12);
-  border: 1px #000;
+  border: 1px #cccccc;
   border-radius: 12px;
   justify-content: center;
   align-items: center;
