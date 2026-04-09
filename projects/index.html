@@ -124,4 +124,25 @@ without any human involvement in the video editing process.</p>
   <div class="mini-label-white">Technologies &amp; tools</div>
   <div class="chips-container">
     {tech.map(techItem => <div class="single-chip">{techItem}</div>)}
+  </div> --> </div><div class="panel border rounded-lg p-6"> <h3 style="display: flex; align-items: center; gap: 0.5rem;"> <a href="https://github.com/Clay-Ferguson/merlin-ocr" target="_blank"> <img src="/assets/github-icon.png" alt="GitHub" style="width: 1.5rem; height: 1.5rem; border-radius: 0.25rem;"> </a> <a href="https://github.com/Clay-Ferguson/merlin-ocr" target="_blank" class="hover:underline">Merlin OCR</a> </h3> <div style="padding-bottom: .5rem;"><h5>Deep Learning OCR for Screenshots and Images (Python CLI)</h5>
+<p>Merlin OCR uses <a href="https://github.com/mindee/doctr">DocTR</a>, a deep-learning OCR engine, to detect and extract text from screenshots 
+and other images. It handles typical UI content well, including colored text such as hyperlinks, small superscripts, and text on 
+dark backgrounds.</p>
+<p>The extracted text can be written as plain-text sidecar files, structured JSON with bounding boxes and confidence scores, or 
+embedded directly into the image metadata for long-term association with the source image. That embedding mode is useful for 
+search, indexing, and archival workflows where the text should stay attached to the image itself.</p>
+<p>Supports single-image and batch (folder) processing with recursive traversal, configurable confidence thresholds, and a 
+companion visualization tool that renders color-coded bounding-box overlays or synthesized text layouts from the JSON output.</p>
+</div> <!-- 
+  NOT CURRENTLY USING BULLETS.
+  <div class="project-desc project-desc-list">
+    <ul role="list">
+      {bullets.map(item => <li>{item}</li>)}
+    </ul>
+  </div> --> <!-- 
+  todo-0: add chips back.
+
+  <div class="mini-label-white">Technologies &amp; tools</div>
+  <div class="chips-container">
+    {tech.map(techItem => <div class="single-chip">{techItem}</div>)}
   </div> --> </div> </div> </section> </div> </div> </main> </div> </body></html>
