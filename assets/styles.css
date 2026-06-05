@@ -204,14 +204,14 @@ ul {
 
 .container {
   width: 100%;
-  max-width: 680px;
+  max-width: 1000px;
   grid-row-gap: 16px;
   flex-direction: column;
   display: flex;
 }
 
 .lead {
-  max-width: 580px;
+  max-width: 880px;
   color: #fff;
   line-height: 26px;
 }
@@ -235,8 +235,8 @@ ul {
 }
 
 .fold-content {
-  padding-top: 48px;
-  margin-bottom: 48px;
+  padding-top: 16px;
+  margin-bottom: 16px;
 }
 
 .hero-row {
