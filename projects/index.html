@@ -71,12 +71,10 @@ and also very intentionally designed to be free of any frameworks (static HTML/C
   <div class="mini-label-white">Technologies &amp; tools</div>
   <div class="chips-container">
     {tech.map(techItem => <div class="single-chip">{techItem}</div>)}
-  </div> --> </div><div class="panel border rounded-lg p-6"> <h3 style="display: flex; align-items: center; gap: 0.5rem;"> <a href="https://github.com/Clay-Ferguson/lingo2" target="_blank"> <img src="/assets/github-icon.png" alt="GitHub" style="width: 1.5rem; height: 1.5rem; border-radius: 0.25rem;"> </a> <a href="https://github.com/Clay-Ferguson/lingo2" target="_blank" class="hover:underline">Lingo2</a> </h3> <div style="padding-bottom: .5rem;"><h5>A Speech-To-Text for voice input into any Linux App</h5>
-<p>This project contains both a web app (which does both TTS and STT) using Whisper.cpp for STT, as well as a 
-native Linux app for STT also using the whisper.cpp library. 
-The Linux app is able to type spoken voice inputs into any application on Linux by listening for spoken 
-words on audio/microphone and immediately typing the spoken words it onto whatever application is 
-currently focused, by simulating actual keyboard input.</p>
+  </div> --> </div><div class="panel border rounded-lg p-6"> <h3 style="display: flex; align-items: center; gap: 0.5rem;"> <a href="https://github.com/Clay-Ferguson/VoxEnter" target="_blank"> <img src="/assets/github-icon.png" alt="GitHub" style="width: 1.5rem; height: 1.5rem; border-radius: 0.25rem;"> </a> <a href="https://github.com/Clay-Ferguson/VoxEnter" target="_blank" class="hover:underline">VoxEnter</a> </h3> <div style="padding-bottom: .5rem;"><h5>A lightweight Linux desktop app for system-wide Speech-to-Text input</h5>
+<p>This app runs as a tiny Python-based app window that you keep open while while you work. The window has a 
+Speech-to-Text checkbox. Whenever you click this checkbox, anything you speak gets immediately typed into 
+whatever app has the keyboard focus. Relies on the faster-whisper Python package</p>
 </div> <!-- 
   NOT CURRENTLY USING BULLETS.
   <div class="project-desc project-desc-list">
